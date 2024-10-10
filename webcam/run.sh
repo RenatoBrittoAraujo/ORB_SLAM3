@@ -1,0 +1,1 @@
+./webcam ../ORB_SLAM3/Vocabulary/ORBvoc.txt ./config_webcam.yaml 
