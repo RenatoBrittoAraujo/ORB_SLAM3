@@ -222,6 +222,10 @@ add_executable(webcam
         webcam/webcam.cc)
 target_link_libraries(webcam ${PROJECT_NAME})
 
+add_executable(test
+        webcam/test.cc)
+target_link_libraries(test ${PROJECT_NAME})
+
 # #Monocular inertial examples
 # set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Monocular-Inertial)
 
